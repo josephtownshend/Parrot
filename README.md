@@ -4,8 +4,10 @@ Parrot is a Command Line Interface tool that greets the user.
 
 Clone this repo and run...
 
-`$ chmod +x /path/to/parrot`
+1. `$ chmod +x /path/to/parrot`
 
-`$ sudo cp /path/to/parrot /usr/local/bin/`
+2. `$ sudo cp /path/to/parrot /usr/local/bin/`
 
-`$ parrot`
+3. `$ parrot`
+
+If you make any changes to your parrot file, simply run line 2 again to update the file in /bin.
