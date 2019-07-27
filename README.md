@@ -24,7 +24,7 @@ To install Parrot, clone this repo and do the following...
 3. Run parrot
 * `$ parrot <your_name>`
 
-If you make any changes to your parrot file, simply run line 2 again to update the file in /bin.
+If you make any changes to your parrot file, simply run line 2 again to update the file in ~/bin.
 
 -------
 
