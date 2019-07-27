@@ -1,6 +1,16 @@
-# Parrot
+____   ____  ____   ____   ___   ______
+|    \ /    ||    \ |    \ /   \ |      |
+|  o  )  o  ||  D  )|  D  )     ||      |
+|   _/|     ||    / |    /|  O  ||_|  |_|
+|  |  |  _  ||    \ |    \|     |  |  |  
+|  |  |  |  ||  .  \|  .  \     |  |  |  
+|__|  |__|__||__|\_||__|\_|\___/   |__|  
+
+-------
 
 Parrot is a Command Line Interface tool that says hello to the user.
+
+-------
 
 To install Parrot, clone this repo and run...
 
