@@ -1,8 +1,8 @@
 # Parrot
 
-Parrot is a Command Line Interface tool that greets the user.
+Parrot is a Command Line Interface tool that says hello to the user.
 
-Clone this repo and run...
+To install Parrot, clone this repo and run...
 
 1. `$ chmod +x /path/to/parrot`
 
