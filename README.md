@@ -6,7 +6,7 @@ Clone this repo and run...
 
 1. `$ chmod +x /path/to/parrot`
 
-2. `$ sudo cp /path/to/parrot /usr/local/bin/`
+2. `$ sudo cp /path/parrot /usr/local/bin/`
 
 3. `$ parrot`
 

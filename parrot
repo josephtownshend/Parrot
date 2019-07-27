@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
-puts 'I am the Parrot!!!'
+ARGV.each do |arg|
+    puts arg
+end
