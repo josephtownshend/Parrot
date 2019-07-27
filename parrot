@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-ARGV.each do |arg|
-    puts arg
+ARGV.each do |name|
+    puts "Hello #{name.capitalize}!"
 end
