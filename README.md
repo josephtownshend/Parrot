@@ -34,6 +34,6 @@ To test parrot first install bats...
 `$ cd bats`
 `$ ./install.sh /usr/local`
 
-Note that you may need to run install.sh with sudo if you do not have permission to write to the installation prefix.
+Note that you may need to run `install.sh` with `sudo` if you do not have permission to write to the installation prefix.
 
-Now you can run `test.bats` file with `bats test.bats`
+Now you can run tests! `$ bats test.bats`
