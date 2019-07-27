@@ -9,11 +9,11 @@ ____   ____  ____   ____   ___   ______
 ```
 -------
 
-Parrot is a Command Line Interface tool that says hello to the user.
+# Parrot is a Command Line Interface tool that says hello to the user.
 
 -------
 
-To install Parrot, clone this repo and do the following...
+## To install Parrot, clone this repo and do the following...
 
 1. Change permissions and allow parrot to be executed
 * `$ chmod +x /path/to/parrot`
@@ -28,7 +28,7 @@ If you make any changes to your parrot file, simply run line 2 again to update t
 
 -------
 
-To test parrot... 
+## To test parrot... 
 
 1. Clone the bats repo
 * `$ git clone https://github.com/sstephenson/bats.git`
