@@ -9,28 +9,28 @@ ____   ____  ____   ____   ___   ______
 ```
 -------
 
-# Parrot is a Command Line Interface tool that says hello to the user.
+# Parrot is a Command Line Interface tool that says hello!
 
 -------
 
 ## To install Parrot, clone this repo and do the following...
 
-1. Change permissions and allow parrot to be executed
+1. Change permissions and allow Parrot to be executed
 * `$ chmod +x /path/to/parrot`
 
 2. Copy the file into the ~/bin folder
 * `$ sudo cp /path/to/parrot /usr/local/bin/`
 
-3. Run parrot
+3. Run Parrot
 * `$ parrot <your_name>`
 
-If you make any changes to your parrot file, simply run line 2 again to update the file in ~/bin.
+If you make any changes to your Parrot file, simply run line 2 again to update the file in ~/bin.
 
 -------
 
-## To test parrot...
+## To test Parrot...
 
-To test parrot first install bats... This might be redundant now that it is included in repo? Can I test that?
+To test Parrot first install bats... This might be redundant now that it is included in repo? Can I test that?
 
 1. Clone the bats repo
 * `$ git clone https://github.com/sstephenson/bats.git`
