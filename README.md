@@ -61,7 +61,7 @@ There are currently 4 working and passing tests.
 $ bats test.bats
  ✓ Check bats is working
  ✓ Check Parrot is working
- ✓ Should return hello Joseph!
+ ✓ Should return Hello Joseph!
  ✓ Should return Hello Joseph! /n Hello Lauren!
 
 4 tests, 0 failures
