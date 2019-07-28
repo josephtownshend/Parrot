@@ -28,12 +28,14 @@ If you make any changes to your parrot file, simply run line 2 again to update t
 
 -------
 
-To test parrot first install bats...
+To test parrot first install bats... This might be redundant now that it is included in repo? Can I test that?
 
 `$ git clone https://github.com/sstephenson/bats.git`
 `$ cd bats`
 `$ ./install.sh /usr/local`
 
-Note that you may need to run install.sh with sudo if you do not have permission to write to the installation prefix.
+Note that you may need to run `install.sh` with `sudo` if you do not have permission to write to the installation prefix.
 
-Now you can run `test.bats` file with `bats test.bats`
+You can now run the `test.bats` file with `$ bats test.bats`
+
+There are currently 4 working and passing tests.

@@ -1,5 +1,23 @@
 #!/usr/bin/env bats
 
-@test "Check parrot is working" {
-    command parrot joseph
+load 'bats/test/libs/bats-support/load'
+load 'bats/test/libs/bats-assert/load'
+
+@test "Check bats is working" {
+    command bats -v
+}
+
+@test "Check Parrot is working" {
+    command parrot
+}
+
+@test "Should return hello joseph!" {
+  run parrot joseph
+  assert_output 'Hello Joseph!'
+}
+
+@test "Should retrun Hello Joseph! /n Hello Lauren!" {
+  run parrot joseph lauren
+  assert_output 'Hello Joseph!
+Hello Lauren!'
 }
