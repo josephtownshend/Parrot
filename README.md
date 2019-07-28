@@ -13,6 +13,10 @@ ____   ____  ____   ____   ___   ______
 
 -------
 
+Parrot was built over one weekend as an experiment in CLI tools, the aim was to create a very simple tool which could be installed and run on a users computer. Parrot only has one function, it just says hello to the user. It is tested using `Bats`, a command line testing tool with assertions added using `bats-support` and `bats-assert` libraries.  
+
+-------
+
 ## To install Parrot, clone this repo and do the following...
 
 1. Change permissions and allow Parrot to be executed
@@ -30,7 +34,7 @@ If you make any changes to your Parrot file, simply run line 2 again to update t
 
 ## To test Parrot...
 
-To test Parrot first install bats... This might be redundant now that it is included in repo? Can I test that?
+To test Parrot first install bats...
 
 1. Clone the bats repo
 * `$ git clone https://github.com/sstephenson/bats.git`
@@ -38,11 +42,12 @@ To test Parrot first install bats... This might be redundant now that it is incl
 2. Change directory into bats
 * `$ cd bats`
 
-3. Run the provided `install.sh` command with the location in which you want to install Bats.
+3. Run the provided `install.sh` command with the location in which you want to install Bats
 * `$ ./install.sh /usr/local`
 
 Note that you may need to run `install.sh` with `sudo` if you do not have permission to write to the installation prefix.
 
-You can now run the `test.bats` file with `$ bats test.bats`
+4. You can now run the `test.bats` file with
+* `$ bats test.bats`
 
 There are currently 4 working and passing tests.
