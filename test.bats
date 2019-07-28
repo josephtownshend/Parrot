@@ -11,7 +11,7 @@ load 'bats/test/libs/bats-assert/load'
     command parrot
 }
 
-@test "Should return hello joseph!" {
+@test "Should return hello Joseph!" {
   run parrot joseph
   assert_output 'Hello Joseph!'
 }
