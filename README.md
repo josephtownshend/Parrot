@@ -17,6 +17,14 @@ Parrot was built over one weekend as an experiment in CLI tools, the aim was to 
 
 -------
 
+## Technologies
+
+* Shell - A
+* Ruby - An Object Oriented Programming language
+* Bats - Bash Automated Testing Framework
+
+-------
+
 ## To install Parrot, clone this repo and do the following...
 
 1. Change permissions and allow Parrot to be executed
