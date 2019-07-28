@@ -30,6 +30,11 @@ Parrot was built over one weekend as an experiment in CLI tools, the aim was to 
 
 If you make any changes to your Parrot file, simply run line 2 again to update the file in ~/bin.
 
+```
+$ parrot joseph
+Hello Joseph!
+```
+
 -------
 
 ## To test Parrot...
@@ -51,3 +56,13 @@ Note that you may need to run `install.sh` with `sudo` if you do not have permis
 * `$ bats test.bats`
 
 There are currently 4 working and passing tests.
+
+```
+$ bats test.bats
+ ✓ Check bats is working
+ ✓ Check Parrot is working
+ ✓ Should return hello joseph!
+ ✓ Should return Hello Joseph! /n Hello Lauren!
+
+4 tests, 0 failures
+```

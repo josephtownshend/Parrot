@@ -16,7 +16,7 @@ load 'bats/test/libs/bats-assert/load'
   assert_output 'Hello Joseph!'
 }
 
-@test "Should retrun Hello Joseph! /n Hello Lauren!" {
+@test "Should return Hello Joseph! \n Hello Lauren!" {
   run parrot joseph lauren
   assert_output 'Hello Joseph!
 Hello Lauren!'
