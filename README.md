@@ -7,11 +7,8 @@ ____   ____  ____   ____   ___   ______
 |  |  |  |  ||  .  \|  .  \     |  |  |   __
 |__|  |__|__||__|\_||__|\_|\___/   |__|  |__|
 ```
--------
 
 # Parrot is a Command Line Interface tool that says hello!
-
--------
 
 Parrot was built over one weekend as an experiment in CLI tools, the aim was to create a very simple tool which could be installed and run on a users computer. Parrot only has one function, it just says hello to the user. It is tested using `Bats`, a command line testing tool with assertions added using `bats-support` and `bats-assert` libraries.  
 
