@@ -16,7 +16,7 @@ Parrot was built over one weekend as an experiment in CLI tools, the aim was to 
 
 ## Technologies
 
-* Bash - A command line language
+* Shell - A command line language
 * Ruby - An object oriented programming language
 * Bats - Bash Automated Testing framework
 
