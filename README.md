@@ -33,12 +33,22 @@ Parrot was built over one weekend as an experiment in CLI tools, the aim was to 
 3. Run Parrot
 * `$ parrot <your_name>`
 
-If you make any changes to your Parrot file, simply run line 2 again to update the file in ~/bin.
-
 ```
 $ parrot joseph
 Hello Joseph!
 ```
+
+4. Run Parrot
+* `$ parrot <your_name> <your_friends_name`
+
+```
+$ parrot joseph lauren
+Hello Joseph!
+Hello Lauren!
+```
+
+* If you make any changes to your Parrot file, simply run step 2 again to update the file in ~/bin.
+
 
 -------
 
