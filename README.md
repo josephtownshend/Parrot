@@ -37,8 +37,8 @@ Parrot was built over one weekend as an experiment in CLI tools, the aim was to 
 $ parrot joseph
 Hello Joseph!
 ```
+OR!
 
-4. Run Parrot
 * `$ parrot <your_name> <your_friends_name`
 
 ```
