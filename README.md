@@ -39,7 +39,7 @@ Hello Joseph!
 ```
 OR!
 
-* `$ parrot <your_name> <your_friends_name`
+* `$ parrot <your_name> <your_friends_name>`
 
 ```
 $ parrot joseph lauren
